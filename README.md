@@ -3,7 +3,7 @@
 Этот проект использует модель Stable Diffusion для создания изображений на основе текстовых запросов. Для работы скрипта требуется Python 3.7+ и следующие библиотеки: PyTorch и diffusers. Установите необходимые пакеты, выполнив команду
 
 ```bash
-pip install torch diffusers
+pip install torch diffusers transformers scipy accelerate
 ```
 
 Чтобы сгенерировать изображение, просто запустите скрипт командой 
